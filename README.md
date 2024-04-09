@@ -1,8 +1,14 @@
-# Cloud Run Template Microservice
+# Demo intended to extend a GCP github demo with BQ access and using bitbucket
+Base demo is at https://github.com/GoogleCloudPlatform/cloud-run-microservice-template-python
 
-A template repository for a Cloud Run microservice, written in Python
+It has been trimmed down a little for simplicity, and references added to GCP docs
 
-[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
+Environment for development was a MacOS, with VS Code.
+
+* First update VSCode, then install the "cloud code" plugin
+* Then follow the demo instructions at https://cloud.google.com/code/docs/vscode/deploy-service
+    * Requires creating a new folder (aka workspace)
+    * Update the GCP CLI, etc.
 
 ## Prerequisite
 
