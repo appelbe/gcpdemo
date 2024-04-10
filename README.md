@@ -5,10 +5,12 @@ It has been trimmed down a little for simplicity, and references added to GCP do
 
 Environment for development was a MacOS, with VS Code.
 
-* First update VSCode, then install the "cloud code" plugin
+* From the terminal shell, update and configure gcloud via gcloud init
+* Then update VSCode, and install the "cloud code" plugin
 * Then follow the demo instructions at https://cloud.google.com/code/docs/vscode/deploy-service
-    * Requires creating a new folder (aka workspace)
-    * Update the GCP CLI, etc.
+    * Requires creating a new folder (aka workspace), and install the base demo (URL above) via a git pull (done thru vscode)
+    * Install invoke, via pip install invokde (assume all commands run thru the vscode terminal), and run the service locally on port 8080 (see bewlo)
+    * You 
 
 ## Prerequisite
 
